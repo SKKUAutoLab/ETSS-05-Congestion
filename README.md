@@ -3,7 +3,7 @@
 
 This is the official repository of 
 
-**OpenCounting: An open Source Implementation of Crowd Counting Methods.**
+**OpenCounting: An Open Source Implementation of Crowd Counting Methods.**
 
 ## 1. Setup
 ### 1.1. Using environment.yml
