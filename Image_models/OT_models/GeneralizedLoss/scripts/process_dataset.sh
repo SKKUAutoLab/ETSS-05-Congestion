@@ -1,0 +1,1 @@
+python preprocess_dataset.py --input_dir datasets/UCF-QNRF --output_dir datasets/qnrf

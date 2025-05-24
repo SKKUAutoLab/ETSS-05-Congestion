@@ -1,0 +1,1 @@
+python test.py --input_dir datasets/qnrf --ckpt_dir saved_qnrf/best_val.pth
