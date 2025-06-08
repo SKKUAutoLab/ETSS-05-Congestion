@@ -1,0 +1,1 @@
+python test.py --type_dataset qnrf --test_json qnrf_test.json --ckpt_dir 'saved_qnrf/epoch1_best_mae.pth.tar'

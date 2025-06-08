@@ -1,0 +1,1 @@
+python SKT_distill.py --train_json qnrf_train.json --val_json qnrf_val.json --test_json qnrf_test.json --lr 1e-4 --teacher_ckpt checkpoint/qnrf_teacher.pth.tar --lamb_fsp 0.5 --lamb_cos 0.5 --out saved_qnrf --type_dataset qnrf

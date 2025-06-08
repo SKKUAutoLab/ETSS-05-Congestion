@@ -1,0 +1,1 @@
+python SKT_distill.py --train_json A_train.json --val_json A_val.json --test_json A_test.json --lr 1e-4 --teacher_ckpt checkpoint/partA_teacher.pth.tar --lamb_fsp 0.5 --lamb_cos 0.5 --out saved_sha --type_dataset sha

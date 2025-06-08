@@ -1,0 +1,1 @@
+python test.py --type_dataset shb --test_json B_test.json --ckpt_dir 'saved_shb/epoch1_best_mae.pth.tar'

@@ -1,0 +1,1 @@
+python test.py --type_dataset sha --test_json A_test.json --ckpt_dir 'saved_sha/epoch1_best_mae.pth.tar'
