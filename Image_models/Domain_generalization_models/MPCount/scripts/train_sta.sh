@@ -1,0 +1,1 @@
+python main.py --task train --config configs/sta_train.yml
