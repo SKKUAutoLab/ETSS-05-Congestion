@@ -1,0 +1,1 @@
+python train.py --train_json datasets/train_part_A.json --val_json datasets/test_part_A.json --batch_size 1 --lr 5e-5

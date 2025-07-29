@@ -1,0 +1,1 @@
+python train.py --train_json datasets/train_part_B.json --val_json datasets/test_part_B.json

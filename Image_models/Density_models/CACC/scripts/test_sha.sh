@@ -1,0 +1,1 @@
+python test.py --input_dir datasets/ShanghaiTech/part_A/test_data/images
