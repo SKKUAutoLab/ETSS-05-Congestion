@@ -1,0 +1,57 @@
+using_csv: 0
+freeze_encoder: 1
+attribute: age
+dataset: shanghaitech_a
+use_cache_for_embeddings: 1
+task: regression
+pretrained_encoder: true
+scorer_name: scorer_cosine_similarity
+downstream_model: linear
+random_seed: 0
+experiment_type: training
+logging:
+  entity: mode-connect
+  gdrive_storage_folder: null
+  project: star-domain
+  tags: []
+  use_tb: false
+  use_wandb: false
+  wandb:
+    entity: mode-connect
+    netrc_path: ~/.netrc
+    project: star-domain
+    tags: []
+model: openai_clip_vit_b_32
+dataset: 
+  name: shanghaitech_a
+  settings:
+    use_pairs: false
+params:
+  random_seed: 0
+finetuning:
+  epochs: 1
+training:
+  downstream_lr: 0.001
+  clip_lr: 0.001
+  weight_decay: 0.0001
+  batch_size: 128
+  epochs: 100
+  horizontal_flip: 0
+  use_val_set_for_training: 0
+  use_pairs: 0
+  train_shots: null
+  use_amp: 0
+  normalize_scores: 0
+result_keys_to_log:
+  - zero_shot.best_prompt.prompt
+  - zero_shot.best_prompt.pairwise_comparison_accuracy
+  - zero_shot.best_prompt.spearman
+  - zero_shot.best_prompt.tau
+  - regression.frozen.train.pairwise_comparison_accuracy
+  - regression.frozen.train.spearman
+  - regression.frozen.train.tau
+  - regression.frozen.train.mae
+  - regression.frozen.test.pairwise_comparison_accuracy
+  - regression.frozen.test.spearman
+  - regression.frozen.test.tau
+  - regression.frozen.test.mae
