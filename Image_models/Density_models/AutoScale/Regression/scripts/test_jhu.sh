@@ -1,0 +1,1 @@
+python val.py --type_dataset jhu --pre ckpts/JHU_regression/model_best.pth

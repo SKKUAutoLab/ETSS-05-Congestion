@@ -1,0 +1,1 @@
+python val.py --type_dataset shb --pre ckpts/ShanghaiB_regression/model_best.pth

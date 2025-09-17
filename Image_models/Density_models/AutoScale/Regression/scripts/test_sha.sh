@@ -1,0 +1,1 @@
+python val.py --type_dataset sha --pre ckpts/ShanghaiA_regression/model_best.pth

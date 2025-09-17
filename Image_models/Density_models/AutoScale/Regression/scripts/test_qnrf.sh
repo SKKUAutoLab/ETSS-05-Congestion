@@ -1,0 +1,1 @@
+python val.py --type_dataset qnrf --pre ckpts/QNRF_regression/model_best.pth

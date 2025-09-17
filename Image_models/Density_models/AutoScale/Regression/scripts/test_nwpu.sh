@@ -1,0 +1,1 @@
+python val.py --type_dataset nwpu --pre ckpts/NWPU_regression/model_best.pth
