@@ -1,0 +1,1 @@
+python train.py --type_dataset JHU --output_dir saved_jhu --vis_dir vis_jhu

@@ -1,0 +1,1 @@
+python test.py --type_dataset JHU --input_dir data/JHU --output_dir saved_jhu --output_file val.txt --ckpt_dir saved_jhu/latest_state.pth

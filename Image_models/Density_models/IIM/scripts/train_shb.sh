@@ -1,0 +1,1 @@
+python train.py --type_dataset SHHB --output_dir saved_shb --vis_dir vis_shb

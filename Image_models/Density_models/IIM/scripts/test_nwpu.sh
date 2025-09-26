@@ -1,0 +1,1 @@
+python test.py --type_dataset NWPU --input_dir data/NWPU --output_dir saved_nwpu --output_file val.txt --ckpt_dir saved_nwpu/latest_state.pth

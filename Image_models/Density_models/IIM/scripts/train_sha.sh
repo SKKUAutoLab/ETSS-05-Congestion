@@ -1,0 +1,1 @@
+python train.py --type_dataset SHHA --output_dir saved_sha --vis_dir vis_sha

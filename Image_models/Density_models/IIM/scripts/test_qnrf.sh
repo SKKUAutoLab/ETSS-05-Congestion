@@ -1,0 +1,1 @@
+python test.py --type_dataset QNRF --input_dir data/QNRF --output_dir saved_qnrf --output_file val.txt --ckpt_dir saved_qnrf/latest_state.pth

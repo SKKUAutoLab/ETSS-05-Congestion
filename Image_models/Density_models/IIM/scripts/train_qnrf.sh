@@ -1,0 +1,1 @@
+python train.py --type_dataset QNRF --output_dir saved_qnrf --vis_dir vis_qnrf

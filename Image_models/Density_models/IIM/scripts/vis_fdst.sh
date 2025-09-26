@@ -1,0 +1,1 @@
+python vis4val.py --type_dataset FDST --input_dir data/FDST --output_dir saved_fdst --output_file val.txt --vis_dir vis_fdst

@@ -1,0 +1,1 @@
+python test.py --type_dataset FDST --input_dir data/FDST --output_dir saved_fdst --output_file val.txt --ckpt_dir saved_fdst/latest_state.pth

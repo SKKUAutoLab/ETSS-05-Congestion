@@ -1,0 +1,1 @@
+python vis4val.py --type_dataset SHHB --input_dir data/SHHB --output_dir saved_shb --output_file val.txt --vis_dir vis_shb

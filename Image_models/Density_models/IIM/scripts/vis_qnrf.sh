@@ -1,0 +1,1 @@
+python vis4val.py --type_dataset QNRF --input_dir data/QNRF --output_dir saved_qnrf --output_file val.txt --vis_dir vis_qnrf

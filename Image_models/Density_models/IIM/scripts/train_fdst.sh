@@ -1,0 +1,1 @@
+python train.py --type_dataset FDST --output_dir saved_fdst --vis_dir vis_fdst

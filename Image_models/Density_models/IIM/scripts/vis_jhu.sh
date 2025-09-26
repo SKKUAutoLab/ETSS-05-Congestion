@@ -1,0 +1,1 @@
+python vis4val.py --type_dataset JHU --input_dir data/JHU --output_dir saved_jhu --output_file val.txt --vis_dir vis_jhu
