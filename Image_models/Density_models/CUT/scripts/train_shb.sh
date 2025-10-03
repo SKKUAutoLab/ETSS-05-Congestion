@@ -1,0 +1,1 @@
+python train.py --type_dataset shb --input_dir processed_datasets/shb --output_dir saved_shb --crop_size 256

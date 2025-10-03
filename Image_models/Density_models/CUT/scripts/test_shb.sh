@@ -1,0 +1,1 @@
+python test.py --type_dataset shb --input_dir processed_datasets/shb/val --ckpt_dir saved_shb/best_model_6.pth --crop_size 256

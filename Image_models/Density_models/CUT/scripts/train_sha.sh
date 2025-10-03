@@ -1,0 +1,1 @@
+python train.py --type_dataset sha --input_dir processed_datasets/sha --output_dir saved_sha --crop_size 256

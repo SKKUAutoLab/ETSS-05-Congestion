@@ -1,0 +1,1 @@
+python test.py --type_dataset sha --input_dir processed_datasets/sha/val --ckpt_dir saved_sha/best_model_32.pth --crop_size 256
