@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=0
+python train.py --type_dataset shb --input_dir datasets/ShanghaiTech/part_B --output_dir saved_shb --epochs 3500 --lr_drop 3500 --lr 0.0001 --lr_backbone 0.00001 --batch_size 8 --eval_freq 1
