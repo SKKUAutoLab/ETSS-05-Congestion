@@ -1,0 +1,34 @@
+{
+    "Model": {
+        "name":"counting",
+        "type": "fidtm",
+        "backbone": {
+            "name": "hrnet_w48",
+            "pretrained": true,
+            "out_indices": [
+                1,2,3,4
+            ],
+            "others":{
+            },
+            "train_backbone": true
+        },
+        "counting_head": {
+            "name": "HRSegMent"
+        },
+        "ckpt_dir":""
+    },
+    "Dataset": {
+        "train": {
+            "ann_file": "datasets/SENSE/train.json",
+            "img_prefix": "../datasets/Sense/train"
+        },
+        "val": {
+            "ann_file": "datasets/SENSE/val.json",
+            "img_prefix": "../datasets/Sense/val"
+        },
+        "test": {
+            "ann_file": "datasets/SENSE/test.json",
+            "img_prefix": "../datasets/Sense/test"
+        }
+    }
+}
