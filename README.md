@@ -79,6 +79,7 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | CSCA    | :heavy_check_mark: | :heavy_check_mark: |
 | IADM    | :heavy_check_mark: | :heavy_check_mark: |
 | EAEFNet | :heavy_check_mark: | :x:                |
+| MIANet  | :heavy_check_mark: | :x:                |
 
 ### 3.2 Supported Models for VLM Crowd Counting
 | Models   | ShanghaiTech       | NWPU-Crowd         | UCF-QNRF           |
@@ -206,10 +207,11 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | FamNet | :heavy_check_mark: |
 
 ### 3.17 Supported Models for 3D Crowd Counting
-| Models    | FruitNeRF          | StackCounting      |
-|-----------|--------------------|--------------------|
-| FruitNeRF | :heavy_check_mark: | :x:                |
-| 3DC       | :x:                | :heavy_check_mark: |
+| Models      | FruitNeRF          | StackCounting      |
+|-------------|--------------------|--------------------|
+| FruitNeRF   | :heavy_check_mark: | :x:                |
+| FruitNeRF++ | :heavy_check_mark: | :x:                |
+| 3DC         | :x:                | :heavy_check_mark: |
 
 ## 4. Citation
 If you find our work useful, please cite the following:
