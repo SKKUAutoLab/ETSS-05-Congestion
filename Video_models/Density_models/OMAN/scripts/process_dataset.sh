@@ -1,0 +1,2 @@
+python process/process_sensecrowd.py
+python process/split_sensecrowd.py

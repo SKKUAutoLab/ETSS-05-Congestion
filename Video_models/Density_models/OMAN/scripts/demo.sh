@@ -1,0 +1,2 @@
+python demo.py --type_dataset SENSE --input_dir demo.mp4 --resume pretrained/SENSE.pth --vis_dir saved_results --is_vis --interval 3 --height 540 --width 960
+# python demo.py --type_dataset HT21 --input_dir demo.mp4 --resume pretrained/HT21.pth --vis_dir saved_results --is_vis --interval 3 --height 540 --width 960
