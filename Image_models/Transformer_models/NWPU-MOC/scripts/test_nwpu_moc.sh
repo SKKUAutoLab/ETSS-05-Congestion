@@ -1,0 +1,1 @@
+python test.py --type_dataset NWPU-MOC --ckpt_dir saved_nwpu_moc/all_ep_1_cls_avg_mae_11.2_cls_avg_mse_21.4_cls_weight_mse_143.2.pth # --is_vis
