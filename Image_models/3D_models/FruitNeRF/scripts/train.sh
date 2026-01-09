@@ -1,0 +1,2 @@
+ns-train fruit_nerf --data datasets/FruitNeRF_Synthetic/01_apple_tree_1024x1024_#300 --output-dir saved_fruitnerf_synthetic
+# ns-train fruit_nerf_big --data datasets/FruitNeRF_Synthetic/01_apple_tree_1024x1024_#300 --output-dir saved_fruitnerf_synthetic

@@ -1,0 +1,1 @@
+ns-export-semantics semantic-pointcloud --load-config saved_fruitnerf_synthetic/01_apple_tree_1024x1024_#300/fruit_nerf/2025-09-18_163817/config.yml --output-dir saved_fruitnerf_synthetic/01_apple_tree_1024x1024_#300 --use-bounding-box True --bounding-box-min -1 -1 -1 --bounding-box-max 1 1 1 --num_rays_per_batch 2000 --num_points_per_side 2000
