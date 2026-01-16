@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=0
+python -m torch.distributed.launch --nproc_per_node=1 --master_port=10001 --use_env main.py --type_dataset sha --input_dir data/ShanghaiTech/part_A --output_dir saved_sha --lr 0.0001 --backbone "vgg16_bn" --ce_loss_coef 1.0 --point_loss_coef 5.0 --eos_coef 0.5 --epochs 1500 --eval_freq 5 --hidden_dim 256 --dropout 0.0 --nheads 8 --dim_feedforward 512 --dec_layers 2

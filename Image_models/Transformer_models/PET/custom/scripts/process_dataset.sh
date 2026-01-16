@@ -1,0 +1,1 @@
+python util/convert_bbox_to_points.py --type_dataset carpk --input_dir data/CARPK/Annotations/ --output_dir data/CARPK/VGG_anotation_truth/
