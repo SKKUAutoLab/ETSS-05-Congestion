@@ -1,0 +1,1 @@
+python preprocess_RGBT.py --type_dataset RGBT-CC --input_dir data/RGBT-CC --output_dir data/processed_RGBT-CC

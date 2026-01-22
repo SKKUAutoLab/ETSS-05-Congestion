@@ -1,0 +1,1 @@
+python test.py --type_dataset RGBT-CC --input_dir data/RGBT-CC --output_dir saved_rgbt_cc --ckpt_dir 1_ckpt.tar
