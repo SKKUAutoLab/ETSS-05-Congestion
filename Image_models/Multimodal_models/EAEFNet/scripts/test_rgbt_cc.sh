@@ -1,0 +1,1 @@
+python test.py --type_dataset RGBT-CC --input_dir data/preprocessed_RGBT-CC --output_dir saved_rgbt_cc --ckpt_dir best_model_0.pth

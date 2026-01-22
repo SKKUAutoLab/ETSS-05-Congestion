@@ -1,0 +1,1 @@
+python train.py --type_dataset RGBT-CC --input_dir data/preprocessed_RGBT-CC --output_dir saved_rgbt_cc
