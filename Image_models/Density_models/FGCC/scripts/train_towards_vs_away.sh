@@ -1,0 +1,1 @@
+python train.py --type_dataset Towards_vs_Away --att --prop --final_loss --count_loss --seg_loss --seg_w 100 --net vgg --soft --seg --model vgg --output_cn 2 --display_freq 100 --lr 0.00001 --downsample 8 --dmap_type fix16 --input_cn 3 --seg_lr 0.00001 --train_counter --hourglass_iter 3 --weight 10 --seg_gt_act multi --output_dir saved_towards_vs_away
