@@ -21,6 +21,7 @@ __pycache__/
 *.h5ad
 *.pckl
 *.ruff_cache
+*.pk
 
 # image model ignore
 Image_models/Knowledge_distillation_models/LCSD/data
