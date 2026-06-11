@@ -1,0 +1,1 @@
+python test.py --type_dataset shb --input_dir datasets/ShanghaiTech/part_B --output_dir vis_shb --ckpt_dir saved_shb/latest.pth

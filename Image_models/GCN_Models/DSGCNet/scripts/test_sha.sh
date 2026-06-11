@@ -1,0 +1,1 @@
+python test.py --type_dataset sha --input_dir datasets/ShanghaiTech/part_A --output_dir vis_sha --ckpt_dir saved_sha/latest.pth
