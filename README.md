@@ -67,6 +67,8 @@ For the 3DCotton dataset, please download it from this [repository](https://gith
 
 For the TPC-268 dataset, please download it from this [repository](https://github.com/tiny-smart/TPC-268)
 
+For the SIC dataset, please download it from this [repository](https://github.com/inbarhub/single_image_dataset)
+
 ### 2.2. Video Crowd Counting Datasets
 For the FDST dataset, please download it from this [repository](https://github.com/sweetyy83/Lstn_fdst_dataset)
 
@@ -229,6 +231,17 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | FruitNeRF++ | :heavy_check_mark: | :x:                | :x:                |
 | 3DC         | :x:                | :heavy_check_mark: | :x:                |
 | CropNeRF    | :x:                | :x:                | :heavy_check_mark: |
+
+### 3.20. Supported Models for Active Learning Crowd Counting
+| Models   | SIC                |
+|----------|--------------------|
+| Count_AL | :heavy_check_mark: |
+
+### 3.21. Supported Models for Segment Anything Crowd Counting
+| Models         | FSC-147            | COCO2017           | Arbitrary Image    |
+|----------------|--------------------|--------------------|--------------------|
+| CountAnything  | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| Count-Anything | :x:                | :x:                | :heavy_check_mark: |
 
 ## 4. Citation
 If you find our work useful, please cite the following:
