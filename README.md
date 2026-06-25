@@ -98,9 +98,17 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | MIANet  | :heavy_check_mark: | :x:                |
 
 ### 3.3. Supported Models for VLM Crowd Counting
-| Models   | ShanghaiTech       | NWPU-Crowd         | UCF-QNRF           |
-|----------|--------------------|--------------------|--------------------|
-| CLIP-EBC | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Models                   | ShanghaiTech       | NWPU-Crowd         | UCF-QNRF           | FSC-147            |
+|--------------------------|--------------------|--------------------|--------------------|--------------------|
+| CLIP-EBC                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| CLIP-Count               | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| CLIP_Counting            | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| LGCount                  | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| Count-Token-Optimization | :x:                | :x:                | :x:                | :x:                |
+| CrowdCLIP                | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                |
+| RVL_DiffGrid             | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| YOLO-Count               | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| Make-It-Count            | :x:                | :x:                | :x:                | :x:                |
 
 ### 3.4. Supported Models for OT Crowd Counting
 | Models          | ShanghaiTech       | NWPU-Crowd         | UCF-QNRF           | Arbitrary Image    |
@@ -141,7 +149,8 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | DPD          | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
 | MSSRGN       | :x:                | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                |
 | PMLoss       | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| TPC-268      | :x:                | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark:  |
+| TPC-268      | :x:                | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| STEERER      | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
 
 ### 3.7. Supported Models for Domain Generalization Crowd Counting
 | Models  | ShanghaiTech       | UCF-QNRF           |
@@ -218,6 +227,7 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | MovingDroneCrowd | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                |
 | DroneBird        | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: |
 | CLRNet           | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| CrowdGAN         | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                |
 
 ### 3.18. Supported Models for Low-shot Crowd Counting
 | Models | FSC147             |
@@ -238,10 +248,26 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | Count_AL | :heavy_check_mark: |
 
 ### 3.21. Supported Models for Segment Anything Crowd Counting
-| Models         | FSC-147            | COCO2017           | Arbitrary Image    |
-|----------------|--------------------|--------------------|--------------------|
-| CountAnything  | :heavy_check_mark: | :heavy_check_mark: | :x:                |
-| Count-Anything | :x:                | :x:                | :heavy_check_mark: |
+| Models         | FSC-147            | COCO2017           | Arbitrary Image    | ShanghaiTech       |
+|----------------|--------------------|--------------------|--------------------|--------------------|
+| CountAnything  | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |
+| Count-Anything | :x:                | :x:                | :heavy_check_mark: | :x:                |
+| AdaSEEMCount   | :x:                | :x:                | :x:                | :heavy_check_mark: |
+
+### 3.22. Supported Models for Weakly-supervised Crowd Counting
+| Models    | ShanghaiTech       |
+|-----------|--------------------|
+| CCRanking | :heavy_check_mark: |
+
+### 3.23. Supported Models for Semi-supervised Crowd Counting
+| Models | ShanghaiTech       |
+|--------|--------------------|
+| DREAM  | :heavy_check_mark: |
+
+### 3.24. Supported Models for Diffusion Crowd Counting
+| Models    | ShanghaiTech       |
+|-----------|--------------------|
+| CrowdDiff | :heavy_check_mark: |
 
 ## 4. Citation
 If you find our work useful, please cite the following:
