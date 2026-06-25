@@ -1,0 +1,6 @@
+python cc_utils/preprocess_shtech.py --data_dir datasets/ShanghaiTech --output_dir datasets/processed_Shanghaitech --dataset part_A --mode train --image_size 256 --ndevices 1 --sigma '0.5' --kernel_size '3'
+python cc_utils/preprocess_shtech.py --data_dir datasets/ShanghaiTech --output_dir datasets/processed_Shanghaitech --dataset part_A --mode val --image_size 256 --ndevices 1 --sigma '0.5' --kernel_size '3'
+python cc_utils/preprocess_shtech.py --data_dir datasets/ShanghaiTech --output_dir datasets/processed_Shanghaitech --dataset part_A --mode test --image_size 256 --ndevices 1 --sigma '0.5' --kernel_size '3'
+python cc_utils/preprocess_shtech.py --data_dir datasets/ShanghaiTech --output_dir datasets/processed_Shanghaitech --dataset part_B --mode train --image_size 256 --ndevices 1 --sigma '0.5' --kernel_size '3'
+python cc_utils/preprocess_shtech.py --data_dir datasets/ShanghaiTech --output_dir datasets/processed_Shanghaitech --dataset part_B --mode val --image_size 256 --ndevices 1 --sigma '0.5' --kernel_size '3'
+python cc_utils/preprocess_shtech.py --data_dir datasets/ShanghaiTech --output_dir datasets/processed_Shanghaitech --dataset part_B --mode test --image_size 256 --ndevices 1 --sigma '0.5' --kernel_size '3'
