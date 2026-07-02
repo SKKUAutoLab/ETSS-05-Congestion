@@ -69,6 +69,12 @@ For the TPC-268 dataset, please download it from this [repository](https://githu
 
 For the SIC dataset, please download it from this [repository](https://github.com/inbarhub/single_image_dataset)
 
+For the DroneRGBT dataset, please download it from this [repository](https://github.com/VisDrone/DroneRGBT)
+
+For the FSC-133 dataset, please download it from this [repository](https://github.com/ActiveVisionLab/LearningToCountAnything)
+
+For the Penguin dataset, please download it from this [repository](https://github.com/niki-amini-naieni/CountVid)
+
 ### 2.2. Video Crowd Counting Datasets
 For the FDST dataset, please download it from this [repository](https://github.com/sweetyy83/Lstn_fdst_dataset)
 
@@ -90,25 +96,29 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | NoisyCC       | :heavy_check_mark: | :x:                |
 
 ### 3.2. Supported Models for Multimodal Crowd Counting
-| Models  | RGBT-CC            | ShanghaiTechRGBD   |
-|---------|--------------------|--------------------|
-| CSCA    | :heavy_check_mark: | :heavy_check_mark: |
-| IADM    | :heavy_check_mark: | :heavy_check_mark: |
-| EAEFNet | :heavy_check_mark: | :x:                |
-| MIANet  | :heavy_check_mark: | :x:                |
+| Models  | RGBT-CC            | ShanghaiTechRGBD   | DroneRGBT          |
+|---------|--------------------|--------------------|--------------------|
+| CSCA    | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| IADM    | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| EAEFNet | :heavy_check_mark: | :x:                | :x:                |
+| MIANet  | :heavy_check_mark: | :x:                | :x:                |
+| RACANet | :x:                | :x:                | :heavy_check_mark: |
 
 ### 3.3. Supported Models for VLM Crowd Counting
-| Models                   | ShanghaiTech       | NWPU-Crowd         | UCF-QNRF           | FSC-147            |
-|--------------------------|--------------------|--------------------|--------------------|--------------------|
-| CLIP-EBC                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |
-| CLIP-Count               | :x:                | :x:                | :x:                | :heavy_check_mark: |
-| CLIP_Counting            | :heavy_check_mark: | :x:                | :x:                | :x:                |
-| LGCount                  | :x:                | :x:                | :x:                | :heavy_check_mark: |
-| Count-Token-Optimization | :x:                | :x:                | :x:                | :x:                |
-| CrowdCLIP                | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                |
-| RVL_DiffGrid             | :heavy_check_mark: | :x:                | :x:                | :x:                |
-| YOLO-Count               | :x:                | :x:                | :x:                | :heavy_check_mark: |
-| Make-It-Count            | :x:                | :x:                | :x:                | :x:                |
+| Models                    | ShanghaiTech       | NWPU-Crowd         | UCF-QNRF           | FSC-147            |
+|---------------------------|--------------------|--------------------|--------------------|--------------------|
+| CLIP-EBC                  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| CLIP-Count                | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| CLIP_Counting             | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| LGCount                   | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| Count-Token-Optimization  | :x:                | :x:                | :x:                | :x:                |
+| CrowdCLIP                 | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                |
+| RVL_DiffGrid              | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| YOLO-Count                | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| Make-It-Count             | :x:                | :x:                | :x:                | :x:                |
+| Counting-Guidance         | :x:                | :x:                | :x:                | :x:                |
+| ZIP                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| CountAnything             | :x:                | :x:                | :x:                | :x:                |
 
 ### 3.4. Supported Models for OT Crowd Counting
 | Models          | ShanghaiTech       | NWPU-Crowd         | UCF-QNRF           | Arbitrary Image    |
@@ -125,42 +135,50 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | SI-INR | :heavy_check_mark: | :x:                |
 
 ### 3.6. Supported Models for Density Crowd Counting
-| Models       | ShanghaiTech       | FDST               | UCF-QNRF           | STCrowd            | CARPK | Towards-vs-Away    | Mall               | JHU-Crowd++        | NWPU-Crowd         | TRANCOS            | Crowd-SR           | TPC-268            |
-|--------------|--------------------|--------------------|--------------------|--------------------|-------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| CSRNet       | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| People-Flows | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| S-DCNet      | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| SS-DCNet     | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| GCC-SFCN     | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| CACC         | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| SASNet       | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| PAL          | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| CUT          | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| SGANet       | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| RankBench    | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| STCrowd      | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| FGCC         | :x:                | :x:                | :x:                | :x:                | :x:   | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| P2PNet       | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| UEPNet       | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| FIDTM        | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |
-| PML          | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                |
-| AutoScale    | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                |
-| IIM          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                |
-| DPD          | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| MSSRGN       | :x:                | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                |
-| PMLoss       | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
-| TPC-268      | :x:                | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: |
-| STEERER      | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| Models             | ShanghaiTech       | FDST               | UCF-QNRF           | STCrowd            | CARPK | Towards-vs-Away    | Mall               | JHU-Crowd++        | NWPU-Crowd         | TRANCOS            | Crowd-SR           | TPC-268            | VSCrowd            |
+|--------------------|--------------------|--------------------|--------------------|--------------------|-------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| CSRNet             | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| People-Flows       | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| S-DCNet            | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| SS-DCNet           | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| GCC-SFCN           | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| CACC               | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| SASNet             | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| PAL                | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| CUT                | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| SGANet             | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| RankBench          | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| STCrowd            | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| FGCC               | :x:                | :x:                | :x:                | :x:                | :x:   | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| P2PNet             | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| UEPNet             | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| FIDTM              | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| PML                | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| AutoScale          | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| IIM                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| DPD                | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| MSSRGN             | :x:                | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:                |
+| PMLoss             | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| TPC-268            | :x:                | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                |
+| STEERER            | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| CCFD               | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| MAN                | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                | :x:                |
+| MCNN               | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| mPrompt            | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:   | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| KDMG               | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
+| ResidualRegression | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:   | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                |
 
 ### 3.7. Supported Models for Domain Generalization Crowd Counting
-| Models  | ShanghaiTech       | UCF-QNRF           |
-|---------|--------------------|--------------------|
-| MPCount | :heavy_check_mark: | :heavy_check_mark: |
-| DCCUS   | :heavy_check_mark: | :x:                |
-| BLA     | :heavy_check_mark: | :x:                |
+| Models     | ShanghaiTech       | UCF-QNRF           |
+|------------|--------------------|--------------------|
+| MPCount    | :heavy_check_mark: | :heavy_check_mark: |
+| DCCUS      | :heavy_check_mark: | :x:                |
+| BLA        | :heavy_check_mark: | :x:                |
+| ScaleBench | :x:                | :x:                |
+| DCSL       | :heavy_check_mark: | :x:                |
 
 ### 3.8. Supported Models for Video Crowd Analysis
-| Models   | SDD                | IND-TIME           | FDST               | VSCROWD            | JRDB               | HT21               | ETHUCY             |
+| Models   | SDD                | IND-TIME           | FDST               | VSCrowd            | JRDB               | HT21               | ETHUCY             |
 |----------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
 | CrowdMAC | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
@@ -170,12 +188,13 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | AWCC-Net | :heavy_check_mark: |
 
 ### 3.10. Supported Models for Transformer Crowd Counting
-| Models     | JHU-Crowd++        | NWPU               | ShanghaiTech       | UCF-QNRF           | CARPK              | NWPU-MOC           | TRANCOS            |
-|------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| CLTR       | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: |
-| TransCrowd | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                |
-| PET        | :x:                | :x:                | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:                |
-| NWPU-MOC   | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                |
+| Models       | JHU-Crowd++        | NWPU               | ShanghaiTech       | UCF-QNRF           | CARPK              | NWPU-MOC           | TRANCOS            | FSC-147            |
+|--------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| CLTR         | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                |
+| TransCrowd   | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| PET          | :x:                | :x:                | :heavy_check_mark: | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| NWPU-MOC     | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:                |
+| CountingDINO | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: |
 
 ### 3.11. Supported Models for MoE Crowd Counting
 | Models | ShanghaiTech       |
@@ -190,11 +209,13 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | P2RLoss | :heavy_check_mark: | :x:                | :x:                |
 
 ### 3.13. Supported Models for Domain Adaptation Crowd Counting
-| Models | UCF-QNRF           | Shanghaitech       | CARPK              | PUCPR              |
-|--------|--------------------|--------------------|--------------------|--------------------|
-| UGSDA  | :heavy_check_mark: | :x:                | :x:                | :x:                |
-| CODA   | :x:                | :heavy_check_mark: | :x:                | :x:                |
-| CBD    | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: |
+| Models | UCF-QNRF           | Shanghaitech       | CARPK              | PUCPR              | Arbitrary Image    |
+|--------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| UGSDA  | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| CODA   | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| CBD    | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| DAOT   | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| CDFA   | :x:                | :x:                | :x:                | :x:                | :heavy_check_mark: |
 
 ### 3.14. Supported Models for GCN Crowd Counting
 | Models     | UCF-QNRF           | JHU-Crowd++        | ShanghaiTech       |
@@ -248,26 +269,30 @@ For the DroneBird dataset, please download it from this [repository](https://git
 | Count_AL | :heavy_check_mark: |
 
 ### 3.21. Supported Models for Segment Anything Crowd Counting
-| Models         | FSC-147            | COCO2017           | Arbitrary Image    | ShanghaiTech       |
-|----------------|--------------------|--------------------|--------------------|--------------------|
-| CountAnything  | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                |
-| Count-Anything | :x:                | :x:                | :heavy_check_mark: | :x:                |
-| AdaSEEMCount   | :x:                | :x:                | :x:                | :heavy_check_mark: |
+| Models         | FSC-147            | COCO2017           | Arbitrary Image    | ShanghaiTech       | CARPK              | Penguin            |
+|----------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| CountAnything  | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| Count-Anything | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:                | :x:                |
+| AdaSEEMCount   | :x:                | :x:                | :x:                | :heavy_check_mark: | :x:                | :x:                |
+| SAM3Count      | :x:                | :x:                | :x:                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ### 3.22. Supported Models for Weakly-supervised Crowd Counting
-| Models    | ShanghaiTech       |
-|-----------|--------------------|
-| CCRanking | :heavy_check_mark: |
+| Models                  | ShanghaiTech       | FSC-133            |
+|-------------------------|--------------------|--------------------|
+| CCRanking               | :heavy_check_mark: | :x:                |
+| LearningToCountAnything | :x:                | :heavy_check_mark: |
 
 ### 3.23. Supported Models for Semi-supervised Crowd Counting
 | Models | ShanghaiTech       |
 |--------|--------------------|
 | DREAM  | :heavy_check_mark: |
+| TMTB   | :heavy_check_mark: |
 
 ### 3.24. Supported Models for Diffusion Crowd Counting
-| Models    | ShanghaiTech       |
-|-----------|--------------------|
-| CrowdDiff | :heavy_check_mark: |
+| Models           | ShanghaiTech       |
+|------------------|--------------------|
+| CrowdDiff        | :heavy_check_mark: |
+| ControlNet-Crowd | :heavy_check_mark: |
 
 ## 4. Citation
 If you find our work useful, please cite the following:
