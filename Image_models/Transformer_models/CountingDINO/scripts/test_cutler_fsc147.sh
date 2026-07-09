@@ -1,0 +1,3 @@
+python cutler_dataset_inference.py --output_path predictions/preds_FSC147_val.json --model_weights ckpts/cutler_cascade_final.pth --config_file third_party/CutLER/cutler/model_zoo/configs/CutLER-ImageNet/cascade_mask_rcnn_R_50_FPN_demo.yaml --img_dir datasets/FSC147/images_384_VarV2 --splits_file annotations/Train_Test_Val_FSC_147.json --split test
+python cutler_exemplar_based_counting.py --annotation_path annotations/annotation_FSC147_384.json --pred_path predictions/preds_FSC147_val.json --img_path datasets/FSC147/images_384_VarV2
+python cutler_evaluation_script.py --pred_path predictions/preds_FSC147_val.json --density_map_dir datasets/FSC147/gt_density_map_adaptive_384_VarV2
