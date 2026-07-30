@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "main.py", line 287, in <module>
+    main()
+  File "main.py", line 185, in main
+    for j, unlabel_data in enumerate(unlabel_train_loader):
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1333, in _next_data
+    return self._process_data(data)
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1359, in _process_data
+    data.reraise()
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torch/_utils.py", line 543, in reraise
+    raise exception
+ValueError: Caught ValueError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/vsw/Desktop/DREAM/datasets/dataloader.py", line 102, in __getitem__
+    img = self.transform(img)
+  File "/home/vsw/miniconda3/envs/brain/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/vsw/Desktop/DREAM/datasets/dataloader.py", line 295, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/home/vsw/Desktop/DREAM/datasets/dataloader.py", line 267, in get_params
+    raise ValueError(
+ValueError: Required crop size (256, 256) is larger then input image size (183, 464)
+
