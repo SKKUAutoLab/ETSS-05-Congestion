@@ -1,0 +1,10 @@
+transformers==4.45.0
+inflect
+pycocotools
+opencv-python
+scikit-image
+wandb
+lvis
+datasets
+gdown==5.2.2
+fiftyone
