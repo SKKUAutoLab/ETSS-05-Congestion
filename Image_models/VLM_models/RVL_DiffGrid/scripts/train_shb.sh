@@ -1,0 +1,1 @@
+python scripts/train.py --train_json datasets/ShanghaiTech/part_B/Processed_JSON/annotations_train.json --test_json datasets/ShanghaiTech/part_B/Processed_JSON/annotations_test.json --ckpt_dir saved_shb --config configs/shb.yaml

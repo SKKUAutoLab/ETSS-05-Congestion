@@ -1,0 +1,10 @@
+# ShanghaiTech Part A (Tabel V)
+lr: 5.0e-6
+lambda_adr: 0.01
+lambda_rel: 0.03
+lambda_lrrc: 0.05
+lambda_grid: 0.05
+density_mode: adaptive
+batch_size: 4
+epochs: 100
+out_size: 64

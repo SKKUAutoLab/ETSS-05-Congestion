@@ -1,0 +1,1 @@
+python scripts/train.py --train_json datasets/ShanghaiTech/part_A/Processed_JSON/annotations_train.json --test_json datasets/ShanghaiTech/part_A/Processed_JSON/annotations_test.json --ckpt_dir saved_sha --config configs/sha.yaml

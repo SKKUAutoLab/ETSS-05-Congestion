@@ -1,0 +1,37 @@
+# =====================================================================
+# RVL-DiffGrid requirements — pinned to a verified RTX 5090 (sm_120) env
+#
+# ⚠️  torch/torchvision TIDAK di-pin di sini karena build Blackwell memakai
+#     nightly + CUDA (suffix +cuXXX) yang hanya ada di index PyTorch, bukan
+#     PyPI. Install TERPISAH dulu (sesuai env terverifikasi: CUDA 13 / cu130):
+#
+#       pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu130
+#
+#     (kalau toolchain Anda CUDA 12.8, ganti cu130 -> cu128)
+#     Verifikasi: python tools/check_env.py  ->  arch_list memuat sm_120
+#
+#     Env acuan yang sudah jalan:
+#       torch       2.10.0.dev+cu130
+#       torchvision 0.25.0.dev+cu130
+# =====================================================================
+
+# Vision-language
+open_clip_torch==3.2.0
+
+# Diffusion stack (Attention.get_attention_scores tersedia di 0.35.x)
+diffusers==0.35.2
+transformers==4.57.3
+accelerate==1.12.0
+safetensors==0.7.0
+huggingface-hub==0.35.3
+
+# Inti
+numpy
+Pillow>=11.0
+tqdm==4.67.1
+PyYAML==6.0.3
+
+# Opsional — augmentasi CLAHE (belum terpasang di env Anda; aktifkan bila perlu)
+# opencv-python>=4.8
+scipy
+opencv-python

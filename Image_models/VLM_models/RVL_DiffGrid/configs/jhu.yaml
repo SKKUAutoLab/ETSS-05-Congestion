@@ -1,0 +1,10 @@
+# JHU-Crowd++ (Tabel V) — lrel & lgrid dimatikan, fixed kernel
+lr: 1.0e-6
+lambda_adr: 0.02
+lambda_rel: 0.00
+lambda_lrrc: 0.02
+lambda_grid: 0.00
+density_mode: fixed
+batch_size: 4
+epochs: 100
+out_size: 64

@@ -1,0 +1,10 @@
+# UCF-QNRF (Tabel V)
+lr: 1.0e-5
+lambda_adr: 0.01
+lambda_rel: 0.04
+lambda_lrrc: 0.05
+lambda_grid: 0.05
+density_mode: adaptive
+batch_size: 4
+epochs: 100
+out_size: 64
