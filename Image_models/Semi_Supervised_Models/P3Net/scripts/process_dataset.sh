@@ -1,0 +1,2 @@
+python preprocess_dataset_jhu.py
+python preprocess_dataset_ucf.py
