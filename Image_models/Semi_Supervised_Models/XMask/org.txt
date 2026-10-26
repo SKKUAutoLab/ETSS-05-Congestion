@@ -1,0 +1,28 @@
+datasets/
+├── SHA/
+│   ├── train_data/
+│   │   ├── images/*.jpg
+│   │   ├── new-anno/GT_{image_id}.npy
+│   │   └── masks/{image_id}.npy
+│   └── test_data/
+│       ├── images/*.jpg
+│       ├── new-anno/GT_{image_id}.npy
+│       └── masks/{image_id}.npy
+├── UCF/
+│   ├── train_data/
+│   │   ├── images/*.jpg
+│   │   ├── new-anno/{image_id}_ann.npy
+│   │   └── masks/{image_id}.npy
+│   └── test_data/
+│       ├── images/*.jpg
+│       ├── new-anno/{image_id}_ann.npy
+│       └── masks/{image_id}.npy
+└── JHU/
+    ├── train_data/
+    │   ├── images/*.jpg
+    │   ├── new-anno/{image_id}.npy
+    │   └── masks/{image_id}.npy
+    └── test_data/
+        ├── images/*.jpg
+        ├── new-anno/{image_id}.npy
+        └── masks/{image_id}.npy
