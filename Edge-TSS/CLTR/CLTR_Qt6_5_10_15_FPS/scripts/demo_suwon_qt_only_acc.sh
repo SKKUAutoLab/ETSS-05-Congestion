@@ -1,0 +1,3 @@
+export NCCL_P2P_DISABLE=1
+export CUDA_VISIBLE_DEVICES=1
+python demo_suwon_qt_only_acc.py
